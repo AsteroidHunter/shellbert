@@ -1,14 +1,14 @@
 # Shellbert
 
+<img src="https://img.shields.io/badge/Status-Beta-#FDFD96" alt="Status" height="40">
+<img src="https://img.shields.io/badge/Currently_Working_On-Personality_Engineering-8A2BE2" alt="Currently Working On" height="30">
+
 Shellbert is an LLM _with a personality_ that will serve primarily two functions:
 
 1. **Answering questions** related to moral/philosophy, economics, global health, animal welfare, and other topics covered in the course [Pathways to Progress](https://arizona.campusgroups.com/tea/about/).
 2. **Automatically finding and saving impact-relevant jobs** and posting a list of curated opportunities in [Tucson Effective Altruism's](https://linktr.ee/tea_at_ua) discord server.
 
 To better perform these two core tasks, the model will have the capacity to perform web searches, perform simple agentic tasks, and use tools.
-
-<img src="https://img.shields.io/badge/Status-Beta-yellow" alt="Status" height="40">
-<img src="https://img.shields.io/badge/Currently_Working_On-Personality_Engineering-8A2BE2" alt="Currently Working On" height="30">
 
 Shellbert is currently based on the instruction-tuned versions of the [Gemma 3n models](https://huggingface.co/collections/google/gemma-3n-685065323f5984ef315c93f4). The model is hosted on a personal remote server with four NVIDIA 3060's (although, the model will typically use just a single GPU).
 
