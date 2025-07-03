@@ -1,0 +1,30 @@
+# Core ML dependencies
+torch>=2.0.0
+transformers>=4.53.0  # Required for Gemma 3n support
+accelerate>=0.20.0
+bitsandbytes>=0.41.0; platform_system != "Darwin"
+
+# Gemma 3n multimodal dependencies
+timm>=0.9.0  # Required for Gemma 3n vision capabilities
+torchvision>=0.15.0  # For fast image processing
+pillow>=9.0.0  # Image processing support
+requests>=2.25.0  # For downloading images from URLs
+
+# Evaluation framework
+inspect-ai>=0.3.0
+
+# Discord bot
+discord.py>=2.3.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0,<2.0.0  # Pin to NumPy 1.x for compatibility with scipy/transformers
+
+# Development and testing
+pytest>=7.0.0
+
+# HuggingFace integration
+huggingface_hub>=0.16.0
+
+# Optional: GPU Monitoring (for remote deployment)
+pynvml>=11.4.1
