@@ -1,6 +1,6 @@
 # Shellbert
 
-<img src="https://img.shields.io/badge/Status-Beta-#FDFD96" alt="Status" height="40">
+<img src="https://img.shields.io/badge/Status-Beta-FDFD96" alt="Status" height="40">
 <img src="https://img.shields.io/badge/Currently_Working_On-Personality_Engineering-8A2BE2" alt="Currently Working On" height="30">
 
 Shellbert is an LLM _with a personality_ that will serve primarily two functions:
